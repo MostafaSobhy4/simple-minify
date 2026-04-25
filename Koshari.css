@@ -26,7 +26,7 @@ a  {
 }
 .container  {
     padding:  0 15px;
-    margin:  0 auto;
+    margin: 0 auto;
     width: 1300px;
 }
 .header  {
@@ -194,7 +194,7 @@ a  {
     background-size:  cover;
     display:  flex;
     column-gap:  200px;
-    padding:  var(--main-padding-or-margin-top-or-bottom) 0 280px;
+    padding:  var(--main-padding-or-margin-top-or-bottom) 0 100px;
     align-items:  center;
 }
 .home .container .info p:first-child  {

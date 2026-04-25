@@ -8,6 +8,8 @@
         <title>Marvel Koshari</title>
         <link rel="icon" type="jpg/webp" href="imgs/marvel1.webp">
         <link rel="stylesheet" href="Koshari.css?v=1.0">
+        <link rel="stylesheet" href="normalize.css?v=1.0">
+        <link rel="stylesheet" href="all.min.css?v=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
@@ -39,36 +41,42 @@
         <main>
             <div class="branches-pages">
                 <div class="container">
-                    <div class="branches">
+                    <div class="branches section">
                         <h1>فروعنا</h1>
-                            <ul>
-                                <li>القاهرة</li>
-                                <ul>
-                                    <li>(العنوان الرئيسي) فرع مدينة نصر: 12 شارع الطيران – بجوار بنك مصر</li>
-                                    <li>فرع وسط البلد: 10 شارع شامبليون – بالقرب من ميدان التحرير</li>
-                                    <li>فرع المعادي: 7 شارع 9 – بجوار محطة مترو المعادي</li>
-                                    <li>فرع أكتوبر: مول العرب – بوابة 2 – الدور الأرضي</li>
-                                </ul>
-                                <li>الجيزة</li>
-                                <ul>
-                                    <li>فرع المهندسين: 45 شارع جامعة الدول العربية – أمام نادي الصيد</li>
-                                    <li>فرع الجيزة: 15 شارع مراد – أمام حديقة الحيوان</li>
-                                    <li>فرع فيصل: 120 شارع الملك فيصل – بجوار كافيه موندو</li>
-                                    <li>فرع الدقي: 8 شارع التحرير – أعلى مترو الدقي</li>
-                                </ul>
-                                <li>الإسكندرية</li>
-                                <ul>
-                                    <li>فرع شارع فؤاد: 33 شارع فؤاد – بالقرب من سينما مترو</li>
-                                    <li>فرع سيدي بشر: شارع خالد بن الوليد – أمام مطعم حدوتة سورية</li>
-                                    <li>فرع محطة الرمل: شارع سعد زغلول – بجوار فندق أمون</li>
-                                </ul>
-                            </ul>
+                            <div class="cardscontainer">
+                                    <div class="branch-card">
+                                        <h3>القاهرة</h3>
+                                        <ul class="branch-list">
+                                            <li class="branch-item">(العنوان الرئيسي) فرع مدينة نصر: 12 شارع الطيران – بجوار بنك مصر</li>
+                                            <li class="branch-item">فرع وسط البلد: 10 شارع شامبليون – بالقرب من ميدان التحرير</li>
+                                            <li class="branch-item">فرع المعادي: 7 شارع 9 – بجوار محطة مترو المعادي</li>
+                                            <li class="branch-item">فرع أكتوبر: مول العرب – بوابة 2 – الدور الأرضي</li>
+                                        </ul>
+                                    </div>
+                                    <div class="branch-card">
+                                        <h3>الجيزة</h3>
+                                        <ul class="branch-list">
+                                            <li class="branch-item">فرع المهندسين: 45 شارع جامعة الدول العربية – أمام نادي الصيد</li>
+                                            <li class="branch-item">فرع الجيزة: 15 شارع مراد – أمام حديقة الحيوان</li>
+                                            <li class="branch-item">فرع فيصل: 120 شارع الملك فيصل – بجوار كافيه موندو</li>
+                                            <li class="branch-item">فرع الدقي: 8 شارع التحرير – أعلى مترو الدقي</li>
+                                        </ul>
+                                    </div>
+                                    <div class="branch-card">
+                                        <h3>الإسكندرية</h3>
+                                        <ul class="branch-list">
+                                            <li class="branch-item">فرع شارع فؤاد: 33 شارع فؤاد – بالقرب من سينما مترو</li>
+                                            <li class="branch-item">فرع سيدي بشر: شارع خالد بن الوليد – أمام مطعم حدوتة سورية</li>
+                                            <li class="branch-item">فرع محطة الرمل: شارع سعد زغلول – بجوار فندق أمون</li>
+                                        </ul>
+                                    </div>
+                            </div>
                     </div>
                 </div>
             </div>
         </main>
 
-        <footer class="footer">
+        <footer class="footer section">
             <div class="container">
                 <div class="email">
                     <input type="email" name="" id="" placeholder="البريد الالكتروني" loading="lazy">
@@ -93,4 +101,6 @@
             </div>
         </footer>
         <script src="main.js?v=1.0" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     </body>

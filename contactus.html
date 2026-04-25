@@ -8,6 +8,8 @@
         <title>Marvel Koshari</title>
         <link rel="icon" type="jpg/webp" href="imgs/marvel1.webp">
         <link rel="stylesheet" href="Koshari.css?v=1.0">
+        <link rel="stylesheet" href="normalize.css?v=1.0">
+        <link rel="stylesheet" href="all.min.css?v=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
@@ -39,30 +41,43 @@
         <main>
             <div class="contactus-page">
                 <div class="container">
-                    <div class="contactus">
+                    <div class="contactus section">
                         <h1>تواصل معنا</h1>
-                        <p>
-                            يسعدنا دايمًا نسمع منك! لو عندك أي استفسار، اقتراح، أو حتى شكوى، فريقنا جاهز يرد عليك.
-                        </p>
-                        <h2>رقم الهاتف:</h2>
-                        <p>01287206953</p>
-                        <hr>
-                        <h2>البريد الإلكتروني:</h2>
-                        <p>info@kosharymarvel.com</p>
-                        <hr>
-                        <h2>مواعيد العمل:</h2>
-                        <p>يومياً من الساعة 10 صباحًا حتى 12 منتصف الليل</p>
-                        <hr>
-                        <h2>تابعنا على السوشيال ميديا:</h2>
-                        <a href="">Facebook</a> <p id="hyphen">-</p>
-                        <a href="">Instagram</a> <p id="hyphen">-</p>
-                        <a href="">TikTok</a>
+                        <div class="cardscontainer">
+                            <div class="card">
+                                <div class="leftcont">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="rightcont">
+                                    <h2>رقم الهاتف</h2>
+                                    <p>01287206953</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="leftcont">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="rightcont">
+                                    <h2>البريد الإلكتروني</h2>
+                                    <p>info@kosharymarvel.com</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="leftcont">
+                                    <i class="fa-solid fa-clock"></i>
+                                </div>
+                                <div class="rightcont">
+                                    <h2>مواعيد العمل</h2>
+                                    <p>يومياً من الساعة 10 صباحًا حتى 12 منتصف الليل</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
 
-        <footer class="footer">
+        <footer class="footer section">
             <div class="container">
                 <div class="email">
                     <input type="email" name="" id="" placeholder="البريد الالكتروني" loading="lazy">
@@ -87,4 +102,6 @@
             </div>
         </footer>
         <script src="main.js?v=1.0" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     </body>
